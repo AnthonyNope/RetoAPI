@@ -9,14 +9,19 @@
 <body>
     <div class="container">
         <h1>Aplicación de Cocteles</h1>
-        <button id="random-drink">Buscar Coctel Aleatorio</button>
-        <div id="loader">Cargando...</div>
-        <div id="drink-details"></div>
-        <button id="save-favorite">Guardar en Favoritos</button>
-        <h2>Favoritos</h2>
-        <ul id="favorites" class="favorites-list"></ul>
+        <div class="content">
+            <div class="main-content">
+                <button id="random-drink" class="btn-primary">Buscar Coctel Aleatorio</button>
+                <div id="loader" class="loader">Cargando...</div>
+                <div id="drink-details"></div>
+                <button id="save-favorite" class="btn-secondary">Guardar en Favoritos</button>
+            </div>
+            <div class="sidebar">
+                <h2>Favoritos</h2>
+                <ul id="favorites" class="favorites-list"></ul>
+            </div>
+        </div>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
